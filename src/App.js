@@ -11,7 +11,6 @@ const App = () => {
 function removeTour(id){
   const newTours = tours.filter(tours=> tours.id!==id);
   setTours (newTours);
-
 }
 if(tours.length===0){
   return (
