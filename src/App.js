@@ -18,7 +18,7 @@ if(tours.length===0){
       <h2>
         No tours Left
       </h2>
-      <button className=""  onClick={()=>setTours(data)}>
+      <button className="btn-white"  onClick={()=>setTours(data)}>
         Refresh 
       </button>
     </div>
@@ -27,7 +27,7 @@ if(tours.length===0){
 
 
   return (
-  <div>
+  <div className="App">
     <Tours tours={tours} removeTour={removeTour}></Tours>
   </div>);
 

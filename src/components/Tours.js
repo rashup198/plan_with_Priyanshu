@@ -2,11 +2,11 @@
 import Card from "./Card";
 function Tours({tours,removeTour}){
     return(
-        <div>
+        <div className="container">
             <div>
-                <h2>Plan with Priyanshu</h2>
+                <h2 className="title">Plan With Priyanshu</h2>
             </div>
-            <div>
+            <div className="cards">
                 {
                     tours.map( (tour)=>{
                         return <Card key={tour.id} {...tour} removeTour={removeTour}></Card> //{...tours} passes the whole object 
