@@ -47,10 +47,59 @@ body{
     border-radius: 10px;
     align-items: center;
     box-shadow:rgb(0,0,0,0.24) 0px 3px 8px;
+   
 }
 
 .image{
     width: 380px;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+.tour-info{
+    margin: 20px 5px;
+
+}
+.tour-price{
+    margin: 10px;
+color: #1faa1f;
+}
+
+.tour-name{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.description{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.read-more{
+    cursor: pointer;
+    color: #12b0e8;
+}
+.btn-red{
+    background-color: #b4161b21;
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid rgb(247, 16, 16);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.btn-red:hover{
+    background-color: rgb(243, 43, 43);
+    font-size: 20px;
+    font-size: 800;
+    transition-duration: 0.2s;
+}
+
+.refresh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
 }
