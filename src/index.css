@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    align-items: center;
+   
     box-shadow:rgb(0,0,0,0.24) 0px 3px 8px;
    
 }
@@ -97,9 +97,21 @@ color: #1faa1f;
 }
 
 .refresh{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: red;
+}
+.btn-white{
+    margin-top:18px;
+    margin: 10px 80px;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.btn-white:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
 }
